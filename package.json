@@ -1,0 +1,17 @@
+{
+  "name": "addondemo",
+  "version": "1.0.0",
+  "description": "demo for addon",
+  "main": "main.js",
+  "scripts": {
+    "rebuild": "./node_modules/.bin/electron-rebuild",
+    "build": "node-gyp clean && node-gyp configure && node build && npm run rebuild"
+  },
+  "author": "Hays",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.6",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {}
+}
