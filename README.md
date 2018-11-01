@@ -1,0 +1,2 @@
+# NodeAddOnDemo
+nodejs addon demo，目标应用场景需求为：通过addon来调用mac上的自定义framework，然后build出来给到electron工程使用
